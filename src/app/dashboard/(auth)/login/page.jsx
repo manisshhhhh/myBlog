@@ -5,10 +5,7 @@ import { getProviders, signIn, useSession } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-export const metadata = {
-  title: "login",
-  description: "This is login Page",
-};
+
 
 const Login = ({ url }) => {
   const session = useSession();
